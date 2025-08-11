@@ -1,0 +1,22 @@
+# Secrets - DO NOT UPLOAD
+.env
+
+# Python virtual environments and cache
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# Large model files and dependencies
+# These should be downloaded by users following the README, not stored in Git.
+/pretrained_models/
+/third_party/
+
+# Output directories for generated files
+/output/
+
+# IDE and OS specific files
+.vscode/
+.idea/
+*.DS_Store
