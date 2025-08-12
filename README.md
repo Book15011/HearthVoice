@@ -123,7 +123,7 @@ Access the interface at: http://localhost:8000
 **Conversation Tab**
 - Text Chat: Type messages in the text box
 - (or) Voice Chat: Click microphone to speak
-- Adjust Settings(**Don't forget to set languages**):
+- Adjust Settings (**Don't forget to select languages**):
     Language selection (supports 6 languages)
     Output's speech speed control
 - View animated responses in the video panel
