@@ -1,6 +1,6 @@
 # ElderCompanion AI - Digital Companion for Seniors 👵👴💬
 
-
+https://github.com/user-attachments/assets/980f6a6c-dccd-438d-b639-4621309918cc
 ![Demo Video](https://github.com/Book15011/HearthVoice/blob/main/Demo.mp4)  
 A compassionate AI companion that helps elderly individuals combat loneliness by simulating conversations with loved ones using their personality, voice, and appearance.
 
