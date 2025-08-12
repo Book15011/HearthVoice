@@ -18,7 +18,6 @@ We create **digital embodiments of family members** that provide:
 - 🌍 Multilingual communication
 - 📚 Personalized memories and mannerisms
 
-> "Now when I'm lonely, I just talk to my grandson's AI - it remembers his laugh and how he tells stories" - 78-year-old user
 
 ## How It Works
 ```mermaid
