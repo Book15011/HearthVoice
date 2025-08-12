@@ -46,8 +46,6 @@ graph LR
 - [Architecture](#technical-architecture-)
 - [Troubleshooting](#troubleshooting-)
 - [Ethics](#ethical-considerations-)
-- [Support](#support--contribution)
-- [License](#license)
 
 ## Key Features ✨
 - **Personalized Digital Companions** - Create AI versions of family members
@@ -152,8 +150,8 @@ graph TD
 | Robotic voice                                                                                     | Use longer (15+ sec) high-quality voice samples |     
 
 ## Ethical Considerations ⚖️
-  - Clearly disclose AI nature to all users
-  - Never impersonate without consent
-  - Store personal data securely
-  - Provide opt-out mechanisms
-  - Regularly audit for bias in responses
+This isn't about replacing human connection - it's about augmenting it:
+- Always transparent about AI nature
+- Encourages real human contact ("Your granddaughter will visit Saturday!")
+- Designed to complement - not replace - family relationships
+- Strict consent requirements for impersonation
