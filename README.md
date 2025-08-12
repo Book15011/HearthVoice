@@ -1,7 +1,6 @@
 # ElderCompanion AI - Digital Companion for Seniors 👵👴💬
 
 [![Demo Video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)  
-
 A compassionate AI companion that helps elderly individuals combat loneliness by simulating conversations with loved ones using their personality, voice, and appearance.
 
 ## Key Features ✨
