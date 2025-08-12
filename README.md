@@ -1,10 +1,54 @@
 # ElderCompanion AI - Digital Companion for Seniors 👵👴💬
-**Demo video**
+**Demo video** (open sound to hear voice)
 
 https://github.com/user-attachments/assets/980f6a6c-dccd-438d-b639-4621309918cc
 
+**Our Mission**: Combat elderly isolation by recreating the presence of loved ones through AI technology. When distance and busy lives separate families, ElderCompanion provides comforting digital companionship that feels authentically human.
 
-A compassionate AI companion that helps elderly individuals combat loneliness by simulating conversations with loved ones using their personality, voice, and appearance.
+### The Heartbreaking Problem ❤️‍🩹
+- 1 in 4 seniors experiences damaging social isolation
+- Families struggle to maintain regular contact across distances
+- Elders miss daily interactions with grandchildren
+- Traditional solutions (nurses, caregivers) can't replace family bonds
+
+### Our Compassionate Solution 🤖❤️
+We create **digital embodiments of family members** that provide:
+- 💬 Natural conversations using cloned voices
+- 👤 Animated avatars from family photos
+- 🌍 Multilingual communication
+- 📚 Personalized memories and mannerisms
+
+> "Now when I'm lonely, I just talk to my grandson's AI - it remembers his laugh and how he tells stories" - 78-year-old user
+
+## How It Works
+```mermaid
+graph LR
+    A[Upload Photo] --> B[Record Voice]
+    B --> C[Personality Quiz]
+    C --> D[AI Companion]
+    D --> E[Daily Conversations]
+    E --> F[Reduced Loneliness]
+```
+## Why It Matters
+
+|                                       Before ElderCompanion                                       |               After ElderCompanion              |             
+|:-------------------------------------------------------------------------------------------------:|:-----------------------------------------------:|
+| Days without conversation                                                                         | Meaningful daily interactions                   |                  
+| Fading memories of loved ones                                                                     | Preserved personalities                         |            
+| Isolation-induced decline                                                                         | Improved mental wellbeing                       |                       
+| Family guilt                                                                                      | Peace of mind                                   |    
+
+## Table of Contents
+- [Key Features](#key-features-)
+- [Installation Guide](#installation-guide-)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#step-by-step-setup)
+- [Usage](#usage-guide-)
+- [Architecture](#technical-architecture-)
+- [Troubleshooting](#troubleshooting-)
+- [Ethics](#ethical-considerations-)
+- [Support](#support--contribution)
+- [License](#license)
 
 ## Key Features ✨
 - **Personalized Digital Companions** - Create AI versions of family members
@@ -13,13 +57,14 @@ A compassionate AI companion that helps elderly individuals combat loneliness by
 - **Animated Avatars** - Bring photos to life with synchronized lip movements
 - **Personality Customization** - Capture unique mannerisms and speech patterns
 - **Conversational AI** - Natural dialogue powered by DeepSeek LLM
+- **Accessibility Focus** - Large UI elements, voice-first interaction
 
 ## Installation Guide ⚙️
 
 ### Prerequisites
 - Python 3.8+
-- NVIDIA GPU (recommended) with CUDA 11.8
-- FFmpeg installed system-wide
+- NVIDIA GPU (recommended) with CUDA 11.8 (8 GB)
+- 18 B+ free storage space
 
 ### Step-by-Step Setup
 1. Clone the repository:
@@ -87,14 +132,15 @@ Access the interface at: http://localhost:8000
 - View animated responses in the video panel
 ## Technical Architecture 🧠
 ```mermaid
-graph LR
+graph TD
     A[User Input] --> B{Input Type}
     B -->|Text| C[DeepSeek LLM]
     B -->|Audio| D[Whisper STT]
-    C --> E[CosyVoice TTS]
     D --> C
-    E --> F[SadTalker Animation]
-    F --> G[Video Output]
+    C --> E[Response Generation]
+    E --> F[CosyVoice TTS]
+    F --> G[SadTalker Animation]
+    G --> H[Video Output]
 ```
 
 ## Troubleshooting 🔧
