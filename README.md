@@ -1,4 +1,4 @@
-# ElderCompanion AI - Digital Companion for Seniors 👵👴💬
+# ElderCompanion AI (HearthVoice) - Digital Companion for Seniors 👵👴💬
 **Demo video** (open sound to hear voice)
 
 https://github.com/user-attachments/assets/980f6a6c-dccd-438d-b639-4621309918cc
